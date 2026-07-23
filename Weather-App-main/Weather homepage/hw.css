@@ -1,0 +1,64 @@
+body {
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom, darkblue, lightblue);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.page-header {
+    background-image: linear-gradient(to right, purple, lightpink);
+    color: black;
+    padding: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    color: darkblue;
+}
+
+/* Gradient Weather Card */
+#weather-card {
+    background-image: linear-gradient(to bottom, orange, yellow);
+    color: black;
+    width: 250px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sun-icon {
+    font-size: 50px;
+    animation: float 2s infinite alternate;
+}
+
+/* Basic Keyframes Animation */
+@keyframes float {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+.temp {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Basic Forecast Cards */
+.day-card {
+    background-color: lightgreen;
+    color: black;
+    width: 200px;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.made-by {
+    color: aqua;
+    font-style: italic;
+    margin-top: 20px;
+}
